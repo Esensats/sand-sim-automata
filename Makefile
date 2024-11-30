@@ -3,10 +3,10 @@
 all: build
 
 build:
-	go build -o sand-sim
+	go build -o ./bin/sand-sim
 
 clean:
-	rm -f sand-sim
+	rm -f ./bin/sand-sim
 
 run: build
-	./sand-sim
+	./bin/sand-sim
